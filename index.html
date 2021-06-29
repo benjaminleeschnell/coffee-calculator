@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quick Coffee Calculations</title>
+</head>
+<body>
+    <div class="errything">
+        <div class="content">
+            <h1>Quick Coffee Calculations</h1>
+            <p class="intro">Input the amount of finished drip coffee you want to brew in ounces. The app will tell you how much coffee and water to put in and how much water per pulse while brewing.</p>
+            <form id="final-amount" onsubmit="return false;">
+                <input id="fa" type="text">
+            </form>
+            <p class="bold">Coffee grounds</p>
+            <p id="grounds" class="amount"></p>
+            <p class="bold">Water</p>
+            <p id="water" class="amount"></p>
+            <p class="bold">Pulses breakdown</p>
+            <p id="pulses" class="amount"></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>  
+</body>
+</html>

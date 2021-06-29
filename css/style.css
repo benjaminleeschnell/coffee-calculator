@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;700&family=Jomhuria&display=swap');
+body {
+  background-color: #ecf0f3;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Jomhuria', cursive;
+  font-size: 3.8em;
+  text-align: center;
+  margin: 0 0 0 0;
+  color: #444;
+}
+p.bold {
+  font-weight: bold;
+}
+
+.errything {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+  border-radius: 50px;
+  height: 600px;
+  background-color: #ecf0f3;
+}
+
+p,
+input,
+a,
+li,
+button {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #444;
+}
+p {
+  margin: 0 0 0 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.intro {
+  margin: 0 0 30px 0;
+  font-size: 1.2em;
+  max-width: 375px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  margin: 0 0 30px 0;
+  color: #444;
+  font-size: 1.5em;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+  appearance: none;
+  border: none;
+  height: 45px;
+  width: 200px;
+  background-color: #ecf0f3;
+  text-align: center;
+}
+
+p.amount {
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .errything {
+    margin: 0 30px;
+  }
+  h1 {
+    line-height: 1;
+  }
+  .intro {
+    padding: 0 30px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .errything {
+    height: 500px;
+    border-radius: 15px;
+  }
+}
