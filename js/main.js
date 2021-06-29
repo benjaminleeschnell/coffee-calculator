@@ -21,7 +21,3 @@ function say(grounds, wa, pu) {
     pulses.innerHTML = "<span>" + pu1 + "<br>" + pu1 * 2 + "<br>" + pu1 * 3; 
 
 }
-
-/* notes for what to do next 
-    Simple styling with neumorhpic border => https://themesberg.com/blog/tutorial/neomorphic-elements-css-html-tutorial
-*/
