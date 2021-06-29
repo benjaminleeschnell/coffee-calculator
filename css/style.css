@@ -74,7 +74,7 @@ input {
 }
 
 input:focus {
-  border: none;
+  outline: none;
 }
 
 p.amount {
