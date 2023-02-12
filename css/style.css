@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;700&family=Jomhuria&display=swap');
 body {
   background-color: #ecf0f3;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   display: flex;
